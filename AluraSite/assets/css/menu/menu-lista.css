@@ -1,0 +1,7 @@
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    list-style: none;
+}
