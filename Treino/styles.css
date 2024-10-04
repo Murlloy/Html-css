@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: #003F62;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.menu {
+}
+
+.menu__lista {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.menu__lista li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu__lista li a {
+    color: white;
+}
+
+.menu__lista li img {
+    padding: 20px; 
+}
+
+.sobreheader {
+    display: flex;
+    height: 74px;
+    padding-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pesquisar input{
+    width: 438px;
+    height: 56px;
+    border-radius: 20px;
+    border: grey 2px solid;
+    padding-left: 10px;
+    font-size: 20px;
+    transition: all 0.2s ease;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.subheader {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 71px;
+    align-items: center;
+}
+
+.butao {
+    display: flex;
+    width: 218px;
+    height: 70px;
+    background-color: #EDA415;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.butao a {
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 177px;
+    padding-top: 38px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    padding-top: 67px;
+    padding-left: 174px;
+    gap: 40px;
+}
+
+.texto h2 {
+    font-size: 43px;
+    font-style: bold;
+    max-width: 130px;
+}
+.texto a {
+    display: flex;
+    width: 144px;
+    height: 61px;
+    background-color: #EDA415;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.butoes {
+    display: flex;
+    gap: 20px;
+}
+
+.desconto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 226px;
+    margin-right: 146px;
+    width: 120px;
+    height: 145px;
+    border-radius: 675px;
+    background-color: #EDA415;
+    transform: translate(-50%, -50%);
+}
+
+
+
