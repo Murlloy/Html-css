@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: #CEB8B8;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 73px;
+    background-color: #0B4EFD;
+}
+
+.login {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu img {
+    width: 35px;
+    margin-top: 5px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    background-color: #5393F3;
+    border-radius: 50px;
+    width: 129px;
+    height: 46px;
+    justify-content: center;
+    padding-right: 10px;
+    border: 1px solid #0B4EFD;
+}
+
+.pesquisar form{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    height: 40px;
+    justify-content: space-between;
+    padding-right: 15px;
+    width: 300px;
+}
+
+.pesquisar form img {
+    width: 15px;
+}
+
+.pesquisar form input {
+    border: none;
+    width: auto;
+    height: 40px;
+    width: 300px;
+}
+
+.linha {
+    background-color: #C8C6C6;
+    color: transparent;
+    width: 80%;
+    height: 2px;
+}
+
+#mais-vendidos {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    padding-left: 92px;
+    padding-right: 92px;
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
